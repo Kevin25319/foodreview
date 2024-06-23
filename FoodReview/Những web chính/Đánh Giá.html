@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoFoodShop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="D:\DoAnCoSo\main.css">
+	<link rel="stylesheet" type="text/css" href="D:\DoAnCoSo\base.css">
+	<link rel="stylesheet" type="text/css" href="D:\DoAnCoSo\grid.css">
+	<link rel="stylesheet" type="text/css" href="D:\DoAnCoSo\responsive.css">
+	<link rel="stylesheet" type="text/css" href="D:\DoAnCoSo\fontawesome-free-5.15/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
+</head>
+<body>
+	<div class="app">
+		<header class="header">
+			<div class="grid wide">
+				<nav class="header__navbar hide-on-mobile-tablet">
+				<ul class="header__navbar-list">
+					<li class="header__navbar-item header__navbar-item--has-qr">Vào cửa hàng trên ứng dụng GoFoodShop
+					<div class="header__qr">
+						<img src="D:\DoAnCoSo\ảnh\qrcode.png" alt="QR code" class="header__qr-img">
+						<div class="header__qr-apps">
+							<a class="header__qr-link" style="margin-left: 11px">
+								<img src="D:\DoAnCoSo\ảnh\googleplay.png" alt="Google Play"class="header__qr-dowload-img">
+							</a>
+							<a class="header__qr-link" style="margin-right: 11px">
+								<img src="D:\DoAnCoSo\ảnh\appstore.png" alt="App Store" class="header__qr-dowload-img">
+							</a>
+						</div>
+					</div>
+					</li>
+					<font color="white" size="5"> | </font>
+					<span class="header__navbar-title--no-pointer">Kết nối
+					<a href="https://www.facebook.com/groups/157765546282950" class="header__navbar-icon-link">
+						<i class="header__navbar-icon fab fa-facebook" ></i>
+					</a>
+					<a class="header__navbar-icon-link">
+						<i class="header__navbar-icon fab fa-instagram"></i>
+					</a>
+				</span>
+				</ul>
+				<ul class="header__navbar-list">
+					<li class="header__navbar-item header__navbar-item--has-notify">
+						<a href="" class="header__navbar-item-link">
+						<i class="header__navbar-icon far fa-bell"></i>
+					Thông báo
+				</a>
+				<!--Nút thông báo-->
+				<div class="header__notify">
+					<header class="header__notify-header">
+						<h3>
+							Thông báo mới nhận được
+						</h3>
+					</header>
+					<ul class="header__notify-list">
+						<li class="header__notify-item header__notify-item--viewed">
+							<a href="https://www.foody.vn/da-nang/bong-food-drink-ton-duc-thang" class="header__notify-link">
+								<img src="D:\DoAnCoSo\ảnh\bong.png" alt="" class="header__notify-img">
+								<div class="header__notify-info">
+									<span class="header__notify-name">Trà sữa bông vừa mới mở thêm 1 cơ sở mới</span>
+									<span class="header__notify-descriotion">Mô tả thêm về cơ sở này</span>
+								</div>
+							</a>
+						</li>
+						<li class="header__notify-item header__notify-item--viewed">
+							<a href="https://www.foody.vn/da-nang/que-xua-my-quang-banh-trang-thit-heo" class="header__notify-link">
+								<img src="D:\DoAnCoSo\ảnh\quexua.jpg" alt="" class="header__notify-img">
+								<div class="header__notify-info">
+									<span class="header__notify-name">Quê Xưa cơ sở 2 có tốt như cơ sở 1?</span> 
+									<span class="header__notify-descriotion">Xem bình luận chi tiết</span>
+								</div>
+							</a>
+						</li>
+						<li class="header__notify-item header__notify-item--viewed">
+							<a href="https://www.foody.vn/da-nang/the-cups-coffee-phan-dang-luu" class="header__notify-link">
+								<img src="D:\DoAnCoSo\ảnh\cupcoffee.png" alt="" class="header__notify-img">
+								<div class="header__notify-info">
+									<span class="header__notify-name">The Cups Coffee phan đăng lưu vừa có combo mới phù hợp cho gia đình </span>
+									<span class="header__notify-descriotion">Mô tả chi tiết về combo</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<footer class="header__notify-footer">
+						<a href="" class="header__notify-footer-btn">Xem tất cả</a>
+					</footer>
+				</div>
+					</li>
+					<li class="header__navbar-item">
+						<a href="" class="header__navbar-item-link"><i class="header__navbar-icon far fa-question-circle"></i>
+						Trợ giúp
+					</a>
+					</li>
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="https://yt3.ggpht.com/yti/ANoDKi5alhvbQB4op_nZ0f8JhvbBv0-KVFYa36q40g=s88-c-k-c0x00ffffff-no-rj-mo" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Minh Quân</span>
+
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                <a href="D:\DoAnCoSo\Những web chính\GoFood.html">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li>
+				</ul>
+				</nav>
+				
+				<div class="header-with-search">
+					<label for="header__mobile-input" class="header__bars-btn">
+						<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+					</label>
+
+					
+					<input type="checkbox" hidden name="" class="header__input" id="header__mobile-input">
+					
+
+					<label for="header__mobile-input" class="header__overlay"></label>
+					<nav class="header__mobile">
+						<label for="header__mobile-input" class="header__mobile-close">
+							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+						</label>
+						<ul class="header__mobile-list">
+							<li>
+								<a href="" class="header__mobile-link">Thông tin tài khoản</a>
+							</li>
+							<li>
+								<a href="" class="header__mobile-link">Trợ giúp</a>
+							</li>
+							<li>
+								<a href="GoFood.html" class="header__mobile-link ">Đăng xuất</a>
+							</li>
+						</ul>
+					</nav>
+					<label for="mobile-search-checkbox" class="header__mobile-search">
+						<i class="header__mobile-search-icon fas fa-search"></i>
+					</label>
+
+					<div class="header__logo">
+						<a href="D:\DoAnCoSo\Những web chính\GoFood.html" class="header__logo-link">
+							<img src="D:\DoAnCoSo\ảnh\logo.png" alt="" class="header__logo-img">
+						</a>
+					</div>
+
+					<input type="checkbox" hidden  id="mobile-search-checkbox" class="header__search-checkbox">
+
+					<div class="header__search hide-on-mobile-tablet">
+						<div class="header__search-input-wrap">
+							<input type="text" class="header__search-input" placeholder="Tìm nhà hàng, món ăn, thức uống" >
+							<div class="header__search-history">
+								<h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+								<ul class="header__search-history-list">
+									<li class="header__search-history-item">
+										<a href="" class="">Mì quảng</a>
+									</li>
+									<li class="header__search-history-item">
+										<a href="" class="">ABC bakery</a>
+									</li>
+									<li class="header__search-history-item">
+										<a href="" class="">Cà Phê Trứng</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="header__search-select">
+							<span class="header__search-select-label">Trong shop</span>
+							<i class="header__search-select-icon fas fa-caret-down"></i>
+
+							<ul class="header__search-option">
+								<li class="header__search-option-item header__search-option-item--active">
+									<span>Trong shop</span>
+									<i class="fas fa-check"></i>
+								</li>
+								<li class="header__search-option-item header__search-option-item--active">
+									<span>Ngoài shop</span>
+									<i class="fas fa-check"></i>
+								</li>
+							</ul>
+						</div>
+						<button class="header__search-btn">
+							<i class="header__search-btn-icon fas fa-search"></i>
+						</button>
+					</div>
+
+					<div class="header__cart">
+						<div class="header__cart-wrap">
+							<i class="header__cart-icon fas fa-shopping-cart"></i>
+							<span class="header__cart-notice">3</span>
+							<!--Đây là khi không có đơn hàng-->
+							<div class="header__cart-list header__cart-list--no-cart">
+								<!--<img src="D:\DoAnCoSo\ảnh\no-cart.png" alt="" class="header__cart-no-cart-img">
+								<span class="header__cart-list-no-cart-msg">
+									Chưa có đơn hàng
+								</span>-->
+								<!--Đây là khi đã có đơn hàng-->
+								<h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+								<ul class="header__cart-list-item">
+									<li class="header__cart-item">
+										<img src="https://images.foody.vn/res/g10/97101/s750x750/2018718134535-foody-quan-que-xua-mi-quang-banh-trang-thit-heo-408-636079719709486182.jpg" alt="" class="header__cart-img">
+										<div class="header__cart-item-info">
+											<div class="header__cart-item-head">
+												<h5 class="header__cart-item-name">Mỳ Gà Quê Xưa</h5>
+												<div class="header__cart-item-price-wrap">
+													<span class="header__cart-item-price">35.000đ</span>
+													<span class="header__cart-item-multiply">x</span>
+													<span class="header__cart-item-qnt">1</span>
+												</div>
+											</div>
+											<div class="header__cart-item-body">
+												<span class="header__cart-item-description">Đã từng được đặt</span>
+												<span class="header__cart-item-remove">Xóa</span>
+											</div>
+										</div>
+									</li>
+									<li class="header__cart-item">
+										<img src="https://images.foody.vn/res/g63/628007/s750x750/a5e061c8-e437-4897-ab4a-85458361-6a3321fe-201204154102.jpeg" alt="" class="header__cart-img">
+										<div class="header__cart-item-info">
+											<div class="header__cart-item-head">
+												<h5 class="header__cart-item-name">Bạc Xỉu HighLands</h5>
+												<div class="header__cart-item-price-wrap">
+													<span class="header__cart-item-price">29.000đ</span>
+													<span class="header__cart-item-multiply">x</span>
+													<span class="header__cart-item-qnt">2</span>
+												</div>
+											</div>
+											<div class="header__cart-item-body">
+												<span class="header__cart-item-description">Đã từng được đặt</span>
+												<span class="header__cart-item-remove">Xóa</span>
+											</div>
+										</div>
+									</li>
+									<li class="header__cart-item">
+										<img src="https://images.foody.vn/res/g67/669342/s120x120/98c91452-e30d-483e-b3e1-74f7fa49-3fe3dca5-210412184907.jpeg" alt="" class="header__cart-img">
+										<div class="header__cart-item-info">
+											<div class="header__cart-item-head">
+												<h5 class="header__cart-item-name">Bánh tráng trộn Hibro</h5>
+												<div class="header__cart-item-price-wrap">
+													<span class="header__cart-item-price">25.000đ</span>
+													<span class="header__cart-item-multiply">x</span>
+													<span class="header__cart-item-qnt">1</span>
+												</div>
+											</div>
+											<div class="header__cart-item-body">
+												<span class="header__cart-item-description">Chưa từng được đặt</span>
+												<span class="header__cart-item-remove">Xóa</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="header__sort-bar">
+				<li class="header__sort-item">
+					<a href="" class="header__sort-link">Đánh giá</a>
+				</li>
+				<li class="header__sort-item header__sort-item--active">
+					<a href="" class="header__sort-link">Gần tôi</a>
+				</li>
+				<li class="header__sort-item">
+					<a href="" class="header__sort-link">Bán chạy</a>
+				</li>
+				<li class="header__sort-item">
+					<a href="" class="header__sort-link">Giá</a>
+				</li>
+			</ul>
+			
+		</header>
+		<div class="app__container">
+			<div class="grid wide">
+				<div class="row app__content">
+					<div class="col l-2 m-0 c-0">
+						<nav class="category">
+							<h3 class="category__heading">
+								<i class="category__heading-icon fas fa-list-ul"></i>
+								Danh mục
+							</h3>
+			
+							<ul class="category-list">
+								<li class="category-item category-item--active">
+									<a href="D:\DoAnCoSo\Những web chính\User.html" class="category-item__link">All</a>
+								</li>
+								<li class="category-item">
+									<a href="D:\DoAnCoSo\Những web chính\Đồ Uống.html" class="category-item__link">Đồ uống</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Đồ ăn</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Tráng miệng</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Vỉa hè</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Cơm hộp</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Mì phở miến</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Sushi</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Món lẩu</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Món gà</a>
+								</li>
+								<li class="category-item">
+									<a href="" class="category-item__link">Đồ chay</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!--Toàn bộ Sản phẩm-->
+					<div class="col l-10 m-12 c-12">
+						<div class="home-filter">
+							<span class="home-filter__label">Sắp xếp theo</span>
+							<a href="D:\DoAnCoSo\Những web chính\Đánh Giá.html" class="home-filter__btn btn">Đánh giá</a>
+							<a href="" class="home-filter__btn btn btn--primary">Gần tôi</a>
+							<a href="" class="home-filter__btn btn">Bán chạy</a>
+
+							<div class="select-input">
+								<span class="select-input__label">Giá</span>
+								<i class="select-input__icon fas fa-angle-down"></i>
+								<ul class="select-input__list">
+									<li class="select-input__item">
+										<a href="" class="select-input__link">Giá: Thấp đến cao</a>
+									</li>
+									<li class="select-input__item">
+										<a href="" class="select-input__link">Giá: Cao đến thấp</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="home-filter__page">
+								<span class="home-filter__page-num">
+									<span class="home-filter__page-current">1</span>/14
+								</span>
+
+								<div class="home-filter__page-control">
+									<a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+										<i class="home-filter__page-icon fas fa-angle-left"></i>
+									</a>
+									<a href="" class="home-filter__page-btn">
+										<i class="home-filter__page-icon fas fa-angle-right"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="home-product">
+							<div class="row sm-gutter">
+								<a href="https://www.now.vn/da-nang/mote-pizza" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g16/159199/prof/s280x175/file_restaurant_photo_ekuw_16033-c5e8f419-201022123544.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Mote Pizza</h4>
+										<h5 class="home-product-item__location">146 Lê Lợi, P. Hải Châu 1, Quận Hải Châu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Fast Food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">10%</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/tra-sua-moc-tran-van-ky" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g70/698566/prof/s280x175/file_restaurant_photo_5hls_16027-00dcc32c-201015100325.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Trà Sữa Mộc - Trần Văn Kỷ</h4>
+										<h5 class="home-product-item__location">22 Trần Văn Kỷ, Quận Liên Chiểu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Drink & Food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">APYT</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/phiphi-sushi-nhat-han-food" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g73/726393/prof/s280x175/foody-upload-api-foody-mobile-10-200714115117.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Phiphi - Sushi Nhật & Hàn Food</h4>
+										<h5 class="home-product-item__location">41 Lê Hồng Phong, Quận Hải Châu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Sushi</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">25%</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.foody.vn/da-nang/an-vat-co-lien" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g75/747614/prof/s280x175/foody-upload-api-foody-mobile-co-lien-jpg-180620143559.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Ăn Vặt Cô Liên</h4>
+										<h5 class="home-product-item__location">220/12 Hải Phòng, P. Tam Thuận, Quận Thanh Khê, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">530 người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Street food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">10%</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.foody.vn/da-nang/bong-food-drink-ton-duc-thang" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g106/1055811/prof/s280x175/foody-upload-api-foody-mobile-7d79689e-e55b-42e4-8-201116120603.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Bông Food & Drink - Tôn Đức Thắng</h4>
+										<h5 class="home-product-item__location">840 Tôn Đức Thắng, Quận Liên Chiểu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Food & Drink</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label">FREESHIP</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/joy-che" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g92/916002/prof/s280x175/foody-upload-api-foody-mobile-avatar-joy-190514082305.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Joy Chè</h4>
+										<h5 class="home-product-item__location">67 Ngô Văn Sở, Quận Liên Chiểu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Dessert</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">10%</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/tra-sua-money-nguyen-du" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g15/144507/prof/s280x175/foody-upload-api-foody-mobile-seatalk_img_15868599-200414173004.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Trà Sữa Money - Nguyễn Du</h4>
+										<h5 class="home-product-item__location">17 Nguyễn Du, Quận Hải Châu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Drink & Food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label">FREESHIP</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/tiem-banh-bo-sua-banh-mi-pho-mai-bo-toi-hai-phong" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g100001/1000000112/prof/s280x175/foody-upload-api-foody-mobile-seatalk_img_15882319-200430143514.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Tiệm Bánh Bò Sữa - Bánh Mì Phô Mai Bơ Tỏi - Hải Phòng</h4>
+										<h5 class="home-product-item__location">322/3 Hải Phòng, P. Chính Gián, Quận Thanh Khê, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Bakery</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">APYT</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/bong-food-drink-dien-bien-phu" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g106/1055811/prof/s280x175/foody-upload-api-foody-mobile-7d79689e-e55b-42e4-8-201116120603.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Bông Food & Drink - Điện Biên Phủ</h4>
+										<h5 class="home-product-item__location">559 Điện Biên Phủ, Quận Thanh Khê, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Food & Drink</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label">FREESHIP</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/tra-sua-nuoc-mia-an-vat-q23" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g5/45920/prof/s280x175/foody-mobile-q23-jpg-521-636132639684633920.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Trà Sữa - Nước Mía - Ăn Vặt Q23</h4>
+										<h5 class="home-product-item__location">23 Lê Hữu Trác, Quận Sơn Trà, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Food & Drink</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">DNQT</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/al-fresco-s-pizza-my-y-suon-steak-bo-bit-tet-tran-hung-dao" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g106/1057240/prof/s280x175/foody-upload-api-foody-mobile-foody-upload-api-foo-201125140214.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Al Fresco's - Pizza, Mỳ Ý, Sườn, Steak Bò Bít Tết - Trần Hưng Đạo</h4>
+										<h5 class="home-product-item__location">515 Trần Hưng Đạo, Quận Sơn Trà, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Fast Food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">FSDN</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/phuc-drink-to-hieu" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g98/971225/prof/s280x175/foody-upload-api-foody-mobile-4-191114152643.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Phúc Drink - Tô Hiệu</h4>
+										<h5 class="home-product-item__location">172/29 Tô Hiệu, Quận Liên Chiểu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Fast Food</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label">FREESHIP</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/com-chien-ga-quay" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g104/1033339/prof/s280x175/foody-upload-api-foody-mobile-comgafghjpoo-200629165336.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Cơm Chiên Gà Quay</h4>
+										<h5 class="home-product-item__location">87 Nguyễn Huy Tưởng, P. Hòa Minh, Quận Liên Chiểu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Rice</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">FSDN</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.now.vn/da-nang/mochi-sweets-vincom-center-da-nang" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g15/148107/prof/s280x175/image-32431d22-201026150432.jpeg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">Mochi Sweets - Vincom Center Đà Nẵng</h4>
+										<h5 class="home-product-item__location">Tầng 4, Vincom Center, 910A Ngô Quyền, P. An Hải Bắc, Quận Sơn Trà, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Bakery</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">20%</span>
+									</div>
+									</div>
+								</a>
+								<a href="https://www.foody.vn/da-nang/the-cups-coffee-phan-dang-luu" class="col l-2-4 m-4 c-6">
+									<!--Sản phẩm-->
+									<div class="home-product-item">
+										<img src="https://images.foody.vn/res/g107/1066300/prof/s280x175/foody-upload-api-foody-mobile-the-cup-cv-210207103711.jpg" alt="" class="home-product-item__img">
+										<h4 class="home-product-item__name">The Cups Coffee - Phan Đăng Lưu</h4>
+										<h5 class="home-product-item__location">160 Phan Đăng Lưu, P. Hòa Cường Bắc, Quận Hải Châu, Đà Nẵng</h5>
+										<div class="home-product-item__action">
+										<span class="home-product-item__like home-product-item__like--liked"> <!--Nếu mún mất tim thì xóa class home-product-item__like--liked-->
+											<i class="home-product-item__like-icon-empty far fa-heart"></i>
+											<i class="home-product-item__like-icon-fill fas fa-heart"></i>
+										</span>
+										<div class="home-product-item__rating">
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+											<i class="home-product-item__star--gold fas fa-star"></i>
+										</div>
+										<span class="home-product-item__sold">999+ người đã đánh giá</span>
+									</div>
+									<div class="home-product-item__origin">
+										<span class="home-product-item__brand">Coffee & Dessert</span>
+										<span class="home-product-item__origin-name">Đà Nẵng</span>
+									</div>
+									<div class="home-product-item__favourite">
+										<i class="fas fa-check"></i>
+										Yêu thích
+									</div>
+									<div class="home-product-item__sale-off">
+										<span class="home-product-item__sale-off-percent">MÃ GIẢM</span>
+										<span class="home-product-item__sale-off-label" style="font-size: 12px;">FSDN</span>
+									</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<ul class="pagination home-product__pagination">
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-left"></i>
+								</a>
+							</li>
+
+							<li class="pagination-item pagination-item--active">
+								<a href="" class="pagination-item__link">1</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">2</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">3</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">4</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">5</a>
+							</li>
+
+							<li class="pagination-item pagination-item--unpointer">
+								<a href="" class="pagination-item__link">...</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">15</a>
+							</li>
+
+							<li class="pagination-item">
+								<a href="" class="pagination-item__link">
+									<i class="pagination-item__icon fas fa-angle-right"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="grid">
+				<div class="grid__row">
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">GoFoodShop Mail</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">GIỚI THIỆU</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="D:\DoAnCoSo\Những web chính\Giới Thiệu Web.html" class="footer-item__link">Giới thiệu về GoFoodShop</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">Tuyển dụng</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">Điều khoản GoFoodShop</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">DANH MỤC</h3>
+							<ul class="footer-list">
+								<li class="footer-item">
+									<a href="" class="footer-item__link">Đồ ăn</a>
+								</li>
+								<li class="footer-item">
+									<a href="" class="footer-item__link">Đồ uống</a>
+								</li>
+								<li class="footer-item">
+									<a href="" class="footer-item__link">Vỉa hè</a>
+								</li>
+								<li class="footer-item">
+									<a href="" class="footer-item__link">Đồ chay</a>
+								</li>
+								<li class="footer-item">
+									<a href="" class="footer-item__link">Món lẩu</a>
+								</li>
+							</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
+						<ul class="footer-list">
+							<li class="footer-item">
+								<a href="https://www.facebook.com/groups/157765546282950" class="footer-item__link">
+									<i class="footer-item__icon fab fa-facebook"></i>
+									Facebook
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">
+									<i class="footer-item__icon fab fa-instagram"></i>
+									Instagram
+								</a>
+							</li>
+							<li class="footer-item">
+								<a href="" class="footer-item__link">
+									<i class="footer-item__icon fab fa-linkedin-in"></i>
+									Linkedin
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l-2-4 m-4 c-6">
+						<h3 class="footer__heading">VÀO CỬA HÀNG TRÊN ỨNG DỤNG</h3>
+						<div class="footer__dowload">
+							<img src="D:\DoAnCoSo\ảnh\qrcode.png" alt="Dowload QR" class="footer__dowload-qr">
+							<div class="footer__dowload-apps">
+								<a href="" class="footer__dowload-app-link">
+									<img src="D:\DoAnCoSo\ảnh\appstore.png" alt="App Store" class="footer__dowload-app-img">
+									<img src="D:\DoAnCoSo\ảnh\googleplay.png" alt="Google Play" class="footer__dowload-app-img">
+								</a>		
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>						
+		</footer>
+	</div>
+
+	<div class="modal">
+		<div class="modal__overlay">
+		</div>
+		<div class="modal__body">
+		</div>
+	</div>
+
+	</body>
+</html>

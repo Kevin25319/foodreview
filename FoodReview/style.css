@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.header{
+	background: linear-gradient(225deg,#e91e63,#03a9f4);
+}
+.btn-outline-dark{
+	background-color:#444444;
+	color: white;
+}
+
+.dropdown-item{
+	transition: all 0.75s;
+	-moz-transform: all 0.75s;
+	-webkit-transform: all 0.75s;
+}
+
+.icon:hover{
+	width: 240px;
+}
+
+.footer{
+	font-family: 'Times New Romans', Times,serif;
+}
+.bg-light{
+	background-color: red;
+}
+
+.a{
+	width: 200px;
+}
+/*.dropdown-menu{
+	position: absolute;
+	margin-left: 12em;
+	margin-top: 1em;
+}*/
+
+.in{
+	border-radius: 20px;
+}
+
+.navbar-toggler{
+	margin-left: 300px;
+}
+
+.ch{
+	width: 200%;
+}
+
+.a:hover{
+	color: blue;
+}
+.dropdown-item{
+	color: white;
+}
+
+.dropdown-item:hover{
+	background: lightblue;
+}
+.list-unstyled{
+	height: 1px;
+}
+/*mien bac mien nam mien trung*/
+
+/*.ill{
+    width: 580px;
+    height: 400px;*/
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+/* } */
+.doc{
+	padding-top: 40px;
+    padding-bottom: 1px;
+}
+.bg{
+	background: linear-gradient(225deg,#e91e63,#03a9f4);
+}
+.logo img{
+	height: 100px;
+	margin-left: -220px;
+}
+.logo2 img{
+	height: 100px;
+}
+.line{
+	text-align: center;
+	align-items: center;
+}
+.abc{
+	list-style-type: none;
+	margin-left: 100px;
+}
+.form-control mr-sm-2{
+	width: 10px;
+}
